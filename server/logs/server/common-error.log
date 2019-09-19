@@ -1,0 +1,337 @@
+2019-07-15 14:48:09,165 ERROR 5392 nodejs.ClusterClientNoResponseError: client no response in 294522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 5392
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-15 14:59:16,610 ERROR 5392 nodejs.ClusterClientNoResponseError: client no response in 206747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 5392
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-15 15:29:06,146 ERROR 5392 nodejs.ClusterClientNoResponseError: client no response in 228334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 5392
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-19 21:10:03,036 ERROR 12664 nodejs.ClusterClientNoResponseError: client no response in 374652ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12664
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 14:49:38,020 ERROR 14584 [-/127.0.0.1/-/59ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at process.nextTick (C:\Users\92093\Desktop\shop\server\node_modules\kareem\index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+message: "Cast to string failed for value \"{}\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 14:49:45,863 ERROR 14584 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at process.nextTick (C:\Users\92093\Desktop\shop\server\node_modules\kareem\index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+message: "Cast to string failed for value \"{}\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 14:52:23,266 ERROR 14584 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\92093\Desktop\shop\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at process.nextTick (C:\Users\92093\Desktop\shop\server\node_modules\kareem\index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+message: "Cast to string failed for value \"{}\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 15:40:04,971 ERROR 14584 [-/127.0.0.1/-/7ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 15:40:05,323 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 15:48:21,170 ERROR 14584 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 15:48:22,444 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:03:30,194 ERROR 14584 [-/127.0.0.1/-/20ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:03:33,687 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:05:42,498 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:06:32,674 ERROR 14584 [-/127.0.0.1/-/13ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:09:53,516 ERROR 14584 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:09:54,094 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:09:54,343 ERROR 14584 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:10:13,095 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:10:14,178 ERROR 14584 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:10:15,341 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:10:28,456 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:10:53,493 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:11:03,655 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:14:53,072 ERROR 14584 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:16:22,455 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:18:02,713 ERROR 14584 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:26:03,841 ERROR 14584 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:41:35,962 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:42:06,695 ERROR 14584 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:43:00,796 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-24 16:43:31,659 ERROR 14584 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:16:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14584
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-25 17:36:50,962 ERROR 17728 nodejs.ClusterClientNoResponseError: client no response in 10804190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 17728
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-25 22:23:38,100 ERROR 17728 nodejs.ClusterClientNoResponseError: client no response in 17206268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 17728
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-29 14:08:17,897 ERROR 19136 [-/127.0.0.1/-/14ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\92093\Desktop\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19136
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-29 17:54:59,433 ERROR 19684 nodejs.ClusterClientNoResponseError: client no response in 495379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 19684
+hostname: DESKTOP-G8U2CQ7
+
+2019-07-29 18:46:35,066 ERROR 19684 nodejs.ClusterClientNoResponseError: client no response in 1434881ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\92093\Desktop\shop\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 19684
+hostname: DESKTOP-G8U2CQ7
+
